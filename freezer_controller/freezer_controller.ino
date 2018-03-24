@@ -21,6 +21,8 @@
 
 // Comment out the line below if you don't have ethernet connected.
 // #define ethernet
+#define wlan
+
  
 #ifdef ethernet;
 #include <SPI.h>        
@@ -33,6 +35,9 @@ IPAddress ip(192, 168, 1, 177);
 unsigned int localPort = 1990;      // local port to listen on
 char packetBuffer[UDP_TX_PACKET_MAX_SIZE];  //buffer to hold incoming packet,
 EthernetUDP Udp;
+#endif
+
+#ifdef wlan;
 #endif
 
 #include <OneWire.h>
