@@ -10,6 +10,10 @@ using System.Globalization;
 using System.Numerics;
 using System.IO.Ports;
 
+// Program for measuring Si5351 over temprature
+// Uses HP 5350A frequency counter
+//
+
 namespace ConsoleApplication4
 {
     class Program
