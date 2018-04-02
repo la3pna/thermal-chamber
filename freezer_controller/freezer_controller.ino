@@ -16,6 +16,7 @@
  * Ethernet based on parts of the ethernet example by arduino.
  * This work is licenced by the  GNU GENERAL PUBLIC LICENSE.
  * 
+ * Conversion to add WLAN 24 mar 16
  * 
  */
 
